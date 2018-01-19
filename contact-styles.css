@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans";
+}
+
+.nav {
+  background: #3C404E;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  border: solid 1px #646d7c;
+  padding: 10px 20px;
+}
+
+.nav ul {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px 25px;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  background-color: rgba(157, 157, 157, 0.342);
+}

@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans";
+}
+
+.nav {
+  background: #3C404E;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  border: solid 1px #646d7c;
+  padding: 10px 20px;
+}
+
+.nav ul {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px 25px;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  background-color: rgba(157, 157, 157, 0.342);
+}
+
+.hero-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("about-images/motorcycle-edit-crop.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.descrip {
+  text-align: center;
+  width: 60%;
+  margin: 50% auto 0;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  position: relative;
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 0px;
+  right: 48%;
+  /* margin: 0 auto; */
+  width: 60px;
+  height: 60px;
+}
+
+.arrow-down img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+}
+
+.sixty-container {
+  width: 85%;
+  margin: 150px auto 50px;
+  background: linear-gradient(to bottom, rgba(50, 120, 156, 0) 0%, rgba(50, 120, 156, 0) 1%, rgba(50, 120, 156, 0.35) 100%);
+  border-radius: 5px;
+}
+
+.two-column {
+  width: 45%;
+  padding: 0;
+  float: left;
+  font-size: 1.25rem;
+}
+
+.two-column img {
+  max-width: 100%;
+}
+
+.left {
+  margin-right: 5%;
+}
+
+.left img {
+  /* box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.34); */
+  box-shadow: 2px 2px 5px 0px rgba(105, 105, 105, 1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.right img {
+  /* box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.34); */
+  box-shadow: -2px 2px 5px 0px rgba(105, 105, 105, 1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right {
+  margin-left: 5%;
+}
+
+.paragraph {
+  margin: 40px auto 0;
+  padding-bottom: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+.paragraph h1 {
+  margin-bottom: 25px;
+}
+
+.paragraph p {
+  /* text-indent: 30pt; */
+  color: #282E44;
+  font-size: 1.5rem;
+}
+
+@media (min-width:768px) {
+  .hero-image {
+    background-image: url("about-images/motorcycle-edit-fade.jpg");
+  }
+  .descrip {
+    margin: 35% auto 0;
+    font-size: 2rem;
+  }
+  .sixty-container {
+    width: 80%;
+  }
+  .two-column {
+    font-size: .75rem;
+  }
+}
+
+@media (min-width:992px) {
+  .descrip {
+    margin: 25% auto 0;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:1200px) {
+  .descrip {
+    margin: 18% auto 0;
+    font-size: 2.33rem;
+  }
+}

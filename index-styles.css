@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans";
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  border: solid 1px #646d7c;
+  padding: 7.5px 20px;
+}
+
+a:hover {
+  background-color: rgba(157, 157, 157, 0.342);
+}
+
+.nav {
+  background: #3C404E;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+}
+
+.nav ul {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px 25px;
+  font-size: 1.25rem;
+}
+
+.header {
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  background-image: url("index-images/forest-path-blur.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-title {
+  width: 60%;
+  height: 150px;
+  margin: 0 auto;
+  padding-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.header-header {
+  font-size: 3.25rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+.three-container {
+  width: 50%;
+  margin: 85px auto;
+}
+
+.two-container {
+  width: 75%;
+  margin: 85px auto;
+}
+
+.four-container {
+  width: 100%;
+  margin: 85px auto;
+}
+
+.single-container {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #F1F1F2;
+}
+
+.three-div, .two-div {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 35px;
+  text-align: center;
+  background-color: #F1F1F2;
+  border-radius: 3px;
+}
+
+.four-div {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  background-color: #F1F1F2;
+  border-radius: 3px;
+  width: 33%;
+  margin: 35px 8.25% 0;
+}
+
+.three-div img, .two-div img, .four-div img, .single-container img {
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.three-div h3, .three-div p, .two-div h3, .two-div p, .four-div h3,
+.four-div p, .single-container h3, .single-container p {
+  margin: 20px 0;
+  padding: 0 20px 20px;
+}
+
+.services {
+  width: 100%;
+  height: 350px;
+  background-image: url("index-images/himalaya-2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-form-container {
+  width: 100%;
+  height: 650px;
+  margin: 50px 0;
+  background-image: url("index-images/contact-norway-sunset-crop.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-form-content {
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 10%;
+}
+
+.contact-header {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.contact-form {
+  width: 100%;
+  margin: 15px 0;
+  color: #333;
+  background: rgba(242, 242, 242, 0.4);
+  border-radius: 5px;
+  border: none;
+  padding: 5px 0 5px 10px;
+}
+
+input[type=submit] {
+  padding: 12px 25px;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #adadad;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(51, 51, 51, 0.609);
+}
+
+::placeholder {
+  color: black;
+}
+
+.footer-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+  font-style: italic;
+}
+
+.footer-header {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.footer-content {
+  font-size: 0.9rem;
+  margin-bottom: 60px;
+}
+
+.copyright-info {
+  text-align: center;
+  font-size: .75rem;
+  margin: 25px 0;
+}
+
+@media (min-width:820px) {
+  .header-title {
+    padding-top: 20%;
+  }
+  .three-container, .two-container {
+    width: 90%;
+  }
+  .three-div {
+    width: 30%;
+    margin: 0 1.475%;
+  }
+  .two-div {
+    width: 47%;
+    margin: 0 1.33%;
+  }
+  .services-title {
+    width: 85%;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  }
+  .four-container {
+    width: 85%;
+    margin: 45px auto;
+  }
+  .four-div {
+    width: 40%;
+    margin: 0px 4.5% 0;
+  }
+  .single-container {
+    width: 90%;
+  }
+  .contact-form-content {
+    width: 60%;
+    padding-top: 5%;
+  }
+  .footer-container {
+    width: 40%;
+  }
+}
+
+@media (min-width:992px) {
+  .header-title {
+    padding-top: 17.5%;
+  }
+  .three-container, .two-container {
+    width: 92%;
+
+  }
+  .three-div {
+    width: 30%;
+    margin: 0 1.5%;
+  }
+  .two-div {
+    width: 47%;
+    margin: 0 1.33%;
+  }
+  .services-title {
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 7.5%;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  }
+  .four-container {
+    width: 92%;
+  }
+  .four-div {
+    width: 22.5%;
+    margin: 0 1.08%;
+  }
+  .single-container {
+    width: 90%;
+  }
+  .contact-form-content {
+    width: 60%;
+    padding-top: 5%;
+  }
+  .footer-container {
+    width: 40%;
+  }
+}
+
+@media (min-width:1400px) {
+  .header-title {
+    padding-top: 10%;
+  }
+  .three-container, .two-container {
+    width: 60%;
+
+  }
+  .three-div {
+    width: 30%;
+    margin: 0 1.5%;
+  }
+  .two-div {
+    width: 48%;
+    margin: 0 0.90%;
+  }
+  .services-title {
+    width: 30%;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 7.5%;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.55);
+  }
+  .four-container {
+    width: 60%;
+  }
+  .four-div {
+    width: 20%;
+    margin: 0 2.25%;
+  }
+  .single-container {
+    width: 60%;
+  }
+  .contact-form-content {
+    width: 30%;
+    padding-top: 5%;
+  }
+  .footer-container {
+    width: 20%;
+  }
+}
